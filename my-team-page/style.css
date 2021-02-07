@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font--Serif: "PT Serif", serif;
+  --font--Poppins: "Poppins", sans-serif;
+  --font--Montserrat: "Montserrat", sans-serif;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: var(--font--Serif);
+  font-size: 36px;
+}
+
+.introduction {
+  font-family: var(--font--Poppins);
+  font-size: 18px;
+
+  padding-top: 20px;
+}
+
+.introduction p {
+  line-height: 27px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+}
+.member {
+  flex: 0 0 calc(33.333% - 30px);
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 50px 15px;
+}
+
+.member:nth-child(3n-1) {
+  margin: 100px 0;
+}
+
+.imgWarper {
+  position: relative;
+  width: 238px;
+  display: flex;
+}
+
+.imgWarper img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.role {
+  position: absolute;
+
+  font-size: 12px;
+  transform: rotate(90deg);
+
+  right: -70px;
+  top: 46px;
+
+  width: 110px;
+  text-align: start;
+}
+.name {
+  font-size: 18px;
+  font-weight: 600;
+
+  margin-top: 15px;
+}
+
+.footer {
+  width: 100%;
+
+  margin: 20px 0;
+}
+
+.footer p {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .container__header {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .header {
+    margin-top: 50px;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .introduction {
+    font-size: 12px;
+  }
+
+  .member {
+    flex: 0 0 calc(50% - 20px);
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 50px 25px 50px 0;
+    
+  }
+
+  .member:nth-child(3n-1) {
+    margin: 50px 25px 50px 0;
+  }
+
+  .member:nth-child(2n) {
+    margin: 100px 0;
+  }
+
+  .imgWarper {
+    width: 138px;
+
+    position: relative;
+  }
+
+  .imgWarper img {
+    width: 100%;
+  }
+
+  .role {
+    position: absolute;
+    right: -65px;
+    top: 50px;
+
+    font-size: 10px;
+  }
+
+  .name {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
