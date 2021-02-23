@@ -87,15 +87,11 @@ a {
   font-weight: 700;
 }
 
-.interior {
-}
 .container__interior {
   display: flex;
   justify-content: space-between;
 
   width: 100%;
-}
-.interior__left {
 }
 
 .healing {
@@ -204,7 +200,7 @@ a {
   display: none;
 }
 
-@media (max-width: 501px) {
+@media(max-width: 501px) {
   body {
     position: relative;
 
