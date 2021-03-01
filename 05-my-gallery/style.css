@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img__profile {
+  width: 200px;
+}
+
+.img__profile img {
+  width: 100%;
+
+  margin-top: 60px;
+  border-radius: 16px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px;
+
+  color: #4e5150;
+}
+
+.country {
+  margin-bottom: 10px;
+  font-size: 14px;
+
+  color: #a9a9a9;
+}
+
+.interactive {
+  display: flex;
+}
+
+.container__interactive {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.interactive__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 67px;
+  width: 100px;
+  font-weight: 600;
+
+  border-radius: 12px;
+  background-color: #e5e5e5;
+
+  margin-right: 25px;
+}
+.number {
+  font-size: 18px;
+
+  color: #4e5150;
+}
+
+.interactive__content p {
+  font-size: 14px;
+  color: #bdbdbd;
+
+  margin: 0px;
+}
+
+.gallery {
+  margin-top: 50px;
+}
+
+.container__gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.layout__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img img {
+  border-radius: 12px;
+}
+
+.img__1 {
+  width: 380px;
+}
+
+.img__1 img {
+  width: 100%;
+}
+
+.img__2 {
+  width: 795px;
+}
+
+.img__2 img {
+  width: 100%;
+}
+
+.img__3 {
+  width: 795px;
+}
+
+.img__3 img {
+  width: 100%;
+}
+
+.img__4 {
+  width: 380px;
+}
+
+.img__4 img {
+  width: 100%;
+}
+
+.img__5 {
+  width: 380px;
+}
+
+.img__5 img {
+  width: 100%;
+}
+
+.img__6 {
+  width: 380px;
+}
+
+.img__6 img {
+  width: 100%;
+}
+
+.layout__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.layout__left__bottom {
+  display: flex;
+  justify-content: space-between;
+}
